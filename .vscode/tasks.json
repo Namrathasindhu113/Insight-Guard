@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Streamlit Dashboard",
+      "type": "shell",
+      "command": "${workspaceFolder}/venv/Scripts/Activate.ps1 ; streamlit run ${workspaceFolder}/dashboard/app.py",
+      "windows": {
+        "command": ".\\venv\\Scripts\\Activate.ps1 ; streamlit run ${workspaceFolder}\\dashboard\\app.py"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
